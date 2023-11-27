@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="js/scripts.js" defer></script>
+    <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp"></script>
+    <title>Apple</title>
+</head>
+<body class="overflow-x-hidden">
+    <header>
+        <nav class="color bg-gray-600 h-20 flex">
+            <div class="flex max-w-7xl w-full mx-auto space-x-20 items-center justify-center">
+                <div>
+                    <img src="img/logo_apple.svg" alt="" class="w-6 cursor-pointer">
+                </div>
+
+                <ul class="hidden md:flex space-x-20 text-white font-semibold">
+                    <li class="hover:underline cursor-pointer">Loja</li>
+                    <li class="hover:underline cursor-pointer">Mac</li>
+                    <li class="hover:underline cursor-pointer">iPad</li>
+                    <li class="hover:underline cursor-pointer">iPhone</li>
+                    <li class="hover:underline cursor-pointer">Watch</li>
+                    <li class="hover:underline cursor-pointer">AirPods</li>
+                    <li class="hover:underline cursor-pointer">Só na Apple</li>
+                    <li class="hover:underline cursor-pointer">Acessórios</li>
+                    <li class="hover:underline cursor-pointer">Suporte</li>
+                </ul>
+            </div>
+        </nav>
+
+        <nav class="border-b border-gray-300 h-20 px-8 ">
+            <div class="max-w-7xl w-full mx-auto items-center h-20 flex justify-between">
+                <div>
+                    <p class="text-2 focus:ring-4xl font-bold">iPhone 13 Pro</p>
+                </div>
+
+                <div>
+                    <ul class="flex space-x-16 text-gray-600 items-center">
+                        <li class="cursor-pointer hidden md:block">Visão Geral</li>
+                        <li class="cursor-pointer hidden md:block">Mudar para o iPhone</li>
+                        <li class="cursor-pointer hidden md:block">Especificações</li>
+                        <li class="color bg-blue-500 text-white px2 py-1 rounded-full w-20 text-center font-semibold cursor-pointer">Comprar</li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <aside class="px-8 text-center bg-gray-100 h-16 md:h-12 flex items-center justify-center text-sm">
+            <p class="text-gray-600">
+                Pague seu novo iPhone em até 12 parcelas ou economize 10% nos pagamentos à vista. <a href="#" class="text-blue-600">Saiba mais</a>
+            </p>
+        </aside>
+    </header>
+
+    <main>
+        <div class="text-center">
+            <div class="mt-10">
+                <h1 class="font-bold text-2 focus:ring-4xl">
+                    iPhone 13 Pro
+                </h1>
+                <h2 class="font-bold text-6xl mt-8">
+                    É todo Pro.
+                </h2>
+                <p class="w-[400px] md:w-[580px] mx-auto text-xl mt-10">
+                    O iPhone 13 Pro é uma enorme evolução. Ele traz uma rapidez absurda a tudo o que você faz e vem com novos recursos espetaculares para fotos e vídeos. Tudo em dois tamanhos.
+                </p>
+            </div>
+
+            <div class="mt-12">
+                <p class="text-gray-400 text-xl"> A partir de R$ 9.499</p>
+                <button class=" mt-4 bg-blue-500 text-white px2 py-1 rounded-full w-32 text-xl text-center  cursor-pointer">Comprar</button>
+            </div>
+        </div>
+
+        <div class="mt-16">
+            <div class="flex">
+                <img id="product-image" src="img/iphone_blue.jpg" alt="" class="mx-auto max-w-[1000px] opacity-100 transition">
+            </div>
+
+            <div>
+                <ul id="image-picker"class="max-w-7xl mx-auto flex justify-center items-center space-x-10 mt-10">
+                    <li  class="text-center">
+                        <button id="green" class="color bg-green-800 md:h-12 md:w-12 w-10 h-10 rounded-full cursor-pointer ring-1 ring-gray-400 ring-offset-2 ">
+                        </button>
+                        <p class="text-xs">Verde-Alpino</p>
+                    </li>
+                    <li class="text-center">
+                        <button id="silver"class="color bg-gray-300 md:h-12 md:w-12 w-10 h-10 rounded-full cursor-pointer ring-1 ring-gray-400 ring-offset-2 ">
+                        </button>
+                        <p class="text-xs">Prateado</p>
+                    </li>
+                    <li class="text-center">
+                        <button id="golden" class="color bg-yellow-200 md:h-12 md:w-12 w-10 h-10 rounded-full cursor-pointer ring-1 ring-gray-400 ring-offset-2 ">
+                        </button>
+                        <p class="text-xs">Dourado</p>
+                    </li>
+                    <li  class="text-center">
+                        <button id="grafite" class="color bg-gray-600 md:h-12 md:w-12 w-10 h-10 rounded-full cursor-pointer ring-1 ring-gray-400 ring-offset-2 ">
+                        </button>
+                        <p class="text-xs">Grafite</p>
+                    </li>
+                    <li  class="text-center color-selected">
+                        <button id="blue" class="color bg-blue-300 md:h-12 md:w-12 w-10 h-10 rounded-full cursor-pointer ring-2 ring-blue-400 ring-offset-4 ring-gray-400 ring-1 ring-gray-400 ring-offset-2 ">
+                        </button>
+                        <p class="text-xs">Azul-Sierra</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </main>
+
+    <footer class="mt-40 bg-gray-300 focus:ring-40 flex items-center justify-center">
+        <img src="img/logo_apple.svg" alt="" class="w-20">
+    </footer>
+
+</body>
+</html>
